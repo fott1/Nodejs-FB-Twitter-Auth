@@ -1,0 +1,36 @@
+{
+  "name": "Node-authentication",
+  "version": "1.0.0",
+  "description": "Node.js, express, authentication",
+  "main": "Server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Node.js",
+    "authentication"
+  ],
+  "author": "fotiskaralis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "formidable": "^1.0.17",
+    "mongoose": "^4.1.2",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.0",
+    "passport-google": "^0.3.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-google-oauth1": "^1.0.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-linkedin": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "prettyjson": "^1.1.3"
+  }
+}
