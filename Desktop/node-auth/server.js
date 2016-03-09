@@ -43,8 +43,8 @@ router.get("/login",function(req,res){
 
 //Facebook Auth
 passport.use(new Strategy({
-    clientID: process.env.CLIENT_ID || '1672996562925109',
-    clientSecret: process.env.CLIENT_SECRET || '01279a1db36c54dba6ffe4f31c66b579',
+    clientID: process.env.CLIENT_ID || 'ID',
+    clientSecret: process.env.CLIENT_SECRET || 'ID',
     callbackURL: 'http://www.3e.gr' //this is just a test callback URL
   },
   function(accessToken, refreshToken, profile, cb) {
