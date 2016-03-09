@@ -65,8 +65,8 @@ app.get('/login-facebook',
 
 //Twitter Auth
 passport.use(new TwitterStrategy({
-    consumerKey: 'I8eQdlmCuv71Z0XNNH2DEFnWj',
-    consumerSecret: '6n9WebrGtLt32IV4WjXwNTFqoRzgsQDEaOI45iLKgT9kZfj2Lh',
+    consumerKey: 'ID',
+    consumerSecret: 'ID',
     callbackURL: "http://127.0.0.1:3000/" // This is to test is returns to Localhost
   },
   function(token, tokenSecret, profile, done) {
